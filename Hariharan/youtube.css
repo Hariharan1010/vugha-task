@@ -1,0 +1,54 @@
+ul{
+  list-style-type:none;
+  text-align: left;
+  color: white;
+}
+
+li{
+  padding-left: 10px;
+  padding-right:  10px;
+  padding-top: 10px;
+  padding-bottom: 22px;
+  font-family: sans-serif;
+  font-size: 17px;
+  text-align: left;
+}
+
+.hey{
+  background-color:black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  position: fixed;
+  width: 300px;
+
+}
+
+h1{
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align:center;
+
+}
+
+li:hover:not(active){
+  background-color: #3a3b3a;
+  padding: 10px 20px 10px 20px;
+  width: 230px;
+}
+
+.active{
+  background-color: #3a3b3a;
+  width: 235px;
+
+}
+
+.material-icons{
+  padding: 5px 5px 5px 5px;
+  text-align: left;
+  font-size: 15px;
+}
